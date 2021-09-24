@@ -8,6 +8,7 @@ class head(Main):
         super().__init__(parent)
         self.Timer = self.m_timer1.Start(60)
         
+        
 app = wx.App(False)
 frame = head(None)
 frame.Show()
